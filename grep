@@ -1,0 +1,6 @@
+grep is used to look into text files,
+grep binary *.txt
+would look for the word binary in all files that end in .txt
+
+grep takes two parameters, : the expression youre looking for and the files to be searched. in this case I used a wildcard to search all of the text files.
+
