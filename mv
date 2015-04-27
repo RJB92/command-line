@@ -1,0 +1,7 @@
+the mv command is used to move files from one directory to another for example 
+mv 'filename' ..
+would move the specified file name up to the parent directory of the one currently in.
+
+"mv" can also be used to change the name of a file by typing the mv command and the filename without specifying a directory.
+mv 'filename' 'newfilename 
+would change the neame of filename to newfilename
