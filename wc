@@ -1,0 +1,10 @@
+the wc command stands for word count and will give you the word, line, and character count of any text file
+wc 'textfile.txt"
+would give you the word character and line count for textfile.txt
+
+you can use a pipe to redirect the output from wc to another command
+
+grep Binary *.txt | wc -l 
+would list all the text files that contain the word binary
+the | would redirect the output to wc -l and output the amount of files that contain the word binary
+
